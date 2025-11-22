@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragon Ventures | Global Sourcing & Logistics</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import and root styling */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Style for smooth scrolling */
+        .scroll-mt-20 {
+            scroll-margin-top: 5rem; 
+        }
+    </style>
+</head>
+ÂÂ<body class="bg-gray-900 text-gray-100">
+
+    <!-- Sticky Navigation Header -->
+    <header class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo/Title -->
+                <a href="#home" class="flex-shrink-0 text-3xl font-extrabold tracking-tight text-orange-500">
+                    Paragon<span class="text-gray-100"> Ventures</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-300 hover:text-orange-500 transition duration-300">Home</a>
+                    <a href="#services" class="text-gray-300 hover:text-orange-500 transition duration-300">Services</a>
+                    <a href="#process" class="text-gray-300 hover:text-orange-500 transition duration-300">Sourcing Process</a>
+                    <a href="#reach" class="text-gray-300 hover:text-orange-500 transition duration-300">Global Reach</a>
+                    <a href="#contact" class="text-orange-500 font-semibold hover:text-orange-400 transition duration-300">Contact & Quote</a>
+                </nav>
+
+                <!-- Mobile Menu Button (Hamburger) -->
+                <button id="mobile-menu-button" class="md:hidden p-2 text-gray-400 hover:text-orange-500 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900 pb-4">
+            <a href="#home" class="block px-4 py-2 text-base font-medium text-gray-300 hover:bg-gray-800" onclick="closeMenu()">Home</a>
+            <a href="#services" class="block px-4 py-2 text-base font-medium text-gray-300 hover:bg-gray-800" onclick="closeMenu()">Services</a>
+            <a href="#process" class="block px-4 py-2 text-base font-medium text-gray-300 hover:bg-gray-800" onclick="closeMenu()">Sourcing Process</a>
+            <a href="#reach" class="block px-4 py-2 text-base font-medium text-gray-300 hover:bg-gray-800" onclick="closeMenu()">Global Reach</a>
+            <a href="#contact" class="block px-4 py-2 text-base font-medium text-orange-500 hover:bg-gray-800" onclick="closeMenu()">Contact & Quote</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="relative pt-16 pb-24 md:pt-32 md:pb-40 bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-100 mb-4">
+                    Global Sourcing, <span class="text-orange-500">Simplified.</span>
+                </h1>
+                <p class="mt-3 max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
+                    From Machinery to Furniture, we manage the procurement, inspection, and logistics from Asia to the World. Your Goods, Delivered Anywhere.
+                </p>
+                <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-xl shadow-2xl text-white bg-orange-600 hover:bg-orange-500 transition duration-300 transform hover:scale-105">
+                    Get a Free Sourcing Quote
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="scroll-mt-20 py-20 md:py-28 bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-center text-gray-100 mb-12">
+                    What We <span class="text-orange-500">Source</span>
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <!-- Service 1: Machinery -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:translate-y-[-4px]">
+                        <svg class="h-10 w-10 text-orange-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37a1.724 1.724 0 002.572-1.065z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-100 mb-2">Heavy Machinery & Equipment</h3>
+                        <p class="text-gray-400">Sourcing industrial equipment, farming tools, and construction machinery. Quality assurance and safe transport guaranteed.</p>
+                    </div>
+
+                    <!-- Service 2: Furniture -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:translate-y-[-4px]">
+                        <svg class="h-10 w-10 text-orange-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6m-6 0h-2a1 1 0 01-1-1v-5a1 1 0 01.293-.707L3 12.414V10m8 0h2m-2 0h-2" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-100 mb-2">Furniture & Decor</h3>
+                        <p class="text-gray-400">Procuring commercial, home, and custom-made furniture pieces. We handle fragile goods with expert care and packaging.</p>
+                    </div>
+
+                    <!-- Service 3: Materials -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:translate-y-[-4px]">
+                        <svg class="h-10 w-10 text-orange-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4m0-10l-4-2m4 2l4 2" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-100 mb-2">General Merchandise & Materials</h3>
+                        <p class="text-gray-400">Handling diverse small materials, textiles, electronics, and general merchandise sourcing with efficiency and competitive pricing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sourcing Process Section -->
+        <section id="process" class="scroll-mt-20 py-20 md:py-28 bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-center text-gray-100 mb-16">
+                    Our 4-Step <span class="text-orange-500">Sourcing Process</span>
+                </h2>
+                
+                <div class="relative flex flex-col items-center">
+                    <!-- Steps Container (Vertical on mobile, horizontal on desktop) -->
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 w-full">
+                        
+                        <!-- Step 1 -->
+                        <div class="text-center p-6 bg-gray-900 rounded-xl shadow-2xl relative transition duration-300 hover:shadow-orange-700/50">
+                            <div class="text-3xl font-bold text-orange-500 mb-2">1.</div>
+                            <h3 class="text-2xl font-semibold mb-2 text-gray-100">Consultation & Quote</h3>
+                            <p class="text-gray-400">We finalize item specifications, quantity, and pricing agreements to set the foundation for your order.</p>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="text-center p-6 bg-gray-900 rounded-xl shadow-2xl relative transition duration-300 hover:shadow-orange-700/50">
+                            <div class="text-3xl font-bold text-orange-500 mb-2">2.</div>
+                            <h3 class="text-2xl font-semibold mb-2 text-gray-100">Sourcing & Inspection</h3>
+                            <p class="text-gray-400">Find verified suppliers, perform stringent quality checks, and oversee the entire production process.</p>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="text-center p-6 bg-gray-900 rounded-xl shadow-2xl relative transition duration-300 hover:shadow-orange-700/50">
+                            <div class="text-3xl font-bold text-orange-500 mb-2">3.</div>
+                            <h3 class="text-2xl font-semibold mb-2 text-gray-100">Logistics & Shipment</h3>
+                            <p class="text-gray-400">We handle customs clearance, secure warehousing, and manage reliable ocean or air freight bookings.</p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="text-center p-6 bg-gray-900 rounded-xl shadow-2xl relative transition duration-300 hover:shadow-orange-700/50">
+                            <div class="text-3xl font-bold text-orange-500 mb-2">4.</div>
+                            <h3 class="text-2xl font-semibold mb-2 text-gray-100">Doorstep Delivery</h3>
+                            <p class="text-gray-400">Final delivery coordination to ensure your goods arrive safely and on time at your specified destination worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Global Reach / Contact Information Section -->
+        <section id="reach" class="scroll-mt-20 py-20 md:py-28 bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-center text-gray-100 mb-12">
+                    Our <span class="text-orange-500">Global Hubs</span>
+                </h2>
+                <p class="text-center text-gray-400 mb-16 max-w-3xl mx-auto">
+                    Paragon Ventures operates from three strategic hubs, ensuring seamless sourcing in Asia and reliable logistics and support globally.
+                </p>
+
+                <!-- Changed to md:grid-cols-3 for 3 hubs -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    
+                    <!-- Hub 1: China (Sourcing) -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                        <h3 class="text-3xl font-bold text-gray-100 mb-4">China Hub (Sourcing & Logistics)</h3>
+                        <p class="text-gray-400 mb-6">Our primary sourcing and quality assurance headquarters, managing procurement directly at the source.</p>
+                        
+                        <div class="space-y-4">
+                            <!-- Address -->
+                            <div class="flex items-start">
+                                <!-- Map Pin Icon -->
+                                <svg class="h-6 w-6 text-orange-500 mt-1 flex-shrink-0 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <p class="text-gray-300 break-words">
+                                    广州市越秀区广园西路27号国太国际商贸城五楼5122档
+                                </p>
+                            </div>
+                            
+                            <!-- Contact -->
+                            <div class="flex items-center">
+                                <!-- Phone Icon -->
+                                <svg class="h-6 w-6 text-orange-500 flex-shrink-0 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.5l1.8 4.5 4.5 1.8 4.5-1.8 1.8 4.5V19a2 2 0 01-2 2h-10a2 2 0 01-2-2z" />
+                                </svg>
+                                <p class="text-gray-300">+8619584565374</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hub 2: Nigeria (Delivery & Support) -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                        <h3 class="text-3xl font-bold text-gray-100 mb-4">Nigeria Hub (Delivery & Support)</h3>
+                        <p class="text-gray-400 mb-6">The gateway for final delivery and local support, ensuring smooth receipt of goods across the region.</p>
+                        
+                        <div class="space-y-4">
+                            <!-- Address -->
+                            <div class="flex items-start">
+                                <!-- Map Pin Icon -->
+                                <svg class="h-6 w-6 text-orange-500 mt-1 flex-shrink-0 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <p class="text-gray-300 break-words">
+                                    178 opkanam road, Asaba, Nigeria
+                                </p>
+                            </div>
+                            
+                            <!-- Contact -->
+                            <div class="flex items-center">
+                                <!-- Phone Icon -->
+                                <svg class="h-6 w-6 text-orange-500 flex-shrink-0 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.5l1.8 4.5 4.5 1.8 4.5-1.8 1.8 4.5V19a2 2 0 01-2 2h-10a2 2 0 01-2-2z" />
+                                </svg>
+                                <p class="text-gray-300">+2348160928001</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hub 3: South Africa (New) -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                        <h3 class="text-3xl font-bold text-gray-100 mb-4">South Africa Hub (Regional Logistics)</h3>
+                        <p class="text-gray-400 mb-6">Our newest hub managing specialized regional logistics and market access across Southern Africa.</p>
+                        
+                        <div class="space-y-4">
+                            <!-- Address -->
+                            <div class="flex items-start">
+                                <!-- Map Pin Icon -->
+                                <svg class="h-6 w-6 text-orange-500 mt-1 flex-shrink-0 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <p class="text-gray-300 break-words">
+                                    11 Albert street, Woodstock, Cape Town, South Africa
+                                </p>
+                            </div>
+                            
+                            <!-- Contact (Omitted as no number was provided) -->
+                            <div class="flex items-center">
+                                <!-- Phone Icon -->
+                                <svg class="h-6 w-6 text-orange-500 flex-shrink-0 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.5l1.8 4.5 4.5 1.8 4.5-1.8 1.8 4.5V19a2 2 0 01-2 2h-10a2 2 0 01-2-2z" />
+                                </svg>
+                                <p class="text-gray-500 italic">Contact details coming soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Request Form Section -->
+        <section id="contact" class="scroll-mt-20 py-20 md:py-28 bg-gray-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-center text-gray-100 mb-4">
+                    Get Your <span class="text-orange-500">Sourcing Quote</span>
+                </h2>
+                <p class="text-center text-gray-400 mb-12">
+                    Tell us about the items you need, and we'll handle the rest. Fill out the form below to start your simplified sourcing journey.
+                </p>
+
+                <!-- Quote Form -->
+                <form id="quote-form" class="bg-gray-900 p-8 md:p-12 rounded-xl shadow-2xl space-y-6">
+                    
+                    <!-- Row 1: Name, Email -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Full Name <span class="text-red-500">*</span></label>
+                            <input type="text" id="name" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-orange-500 focus:border-orange-500 text-gray-100 placeholder-gray-400 transition duration-150">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email Address <span class="text-red-500">*</span></label>
+                            <input type="email" id="email" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-orange-500 focus:border-orange-500 text-gray-100 placeholder-gray-400 transition duration-150">
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Phone, Category -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-300 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-orange-500 focus:border-orange-500 text-gray-100 placeholder-gray-400 transition duration-150" placeholder="+1 (Country Code) XXX-XXXX">
+                        </div>
+                        <div>
+                            <label for="category" class="block text-sm font-medium text-gray-300 mb-2">Item Category <span class="text-red-500">*</span></label>
+                            <select id="category" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-orange-500 focus:border-orange-500 text-gray-100 appearance-none transition duration-150">
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="furniture">Furniture & Decor</option>
+                                <option value="machinery">Heavy Machinery & Equipment</option>
+                                <option value="materials">General Merchandise & Materials</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Row 3: Item Description -->
+                    <div>
+                        <label for="description" class="block text-sm font-medium text-gray-300 mb-2">Item Description / Specs <span class="text-red-500">*</span></label>
+                        <textarea id="description" rows="4" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-orange-500 focus:border-orange-500 text-gray-100 placeholder-gray-400 transition duration-150" placeholder="Specific details, quantity, size, material, and target price (if known)."></textarea>
+                    </div>
+
+                    <!-- Row 4: Destination -->
+                    <div>
+                        <label for="destination" class="block text-sm font-medium text-gray-300 mb-2">Destination Country <span class="text-red-500">*</span></label>
+                        <input type="text" id="destination" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-orange-500 focus:border-orange-500 text-gray-100 placeholder-gray-400 transition duration-150" placeholder="e.g., Ghana, USA, Brazil">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full px-6 py-3 border border-transparent text-lg font-bold rounded-lg shadow-xl text-white bg-orange-600 hover:bg-orange-500 transition duration-300 transform hover:scale-[1.01]">
+                        Submit Quote Request
+                    </button>
+                </form>
+                
+                <!-- Success Message Box (Hidden by default) -->
+                <div id="success-message" class="hidden fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-[100]">
+                    <div class="bg-gray-900 p-8 md:p-10 rounded-xl max-w-sm w-full text-center shadow-2xl border-t-4 border-green-500">
+                        <svg class="h-12 w-12 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-100 mb-3">Request Sent!</h3>
+                        <p class="text-gray-300 mb-6">Thank you! Your quote request has been received. Our team will contact you within 24 hours.</p>
+                        <button onclick="document.getElementById('success-message').classList.add('hidden')" class="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-500 transition duration-200">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500">
+            <p>&copy; 2025 Paragon Ventures. Global Sourcing & Logistics. | <a href="http://www.pcparagonventures.com" class="hover:text-orange-500 transition duration-300">www.pcparagonventures.com</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Functionality -->
+    <script>
+        const form = document.getElementById('quote-form');
+        const successMessage = document.getElementById('success-message');
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        // --- Form Submission Handler ---
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default browser submission
+            
+            // Basic Validation Check (Browser handles 'required' mostly, but good practice to check)
+            const requiredFields = ['name', 'email', 'category', 'description', 'destination'];
+            let isValid = true;
+
+            requiredFields.forEach(id => {
+                const input = document.getElementById(id);
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.classList.add('border-red-500');
+                    input.classList.remove('border-gray-600');
+                } else {
+                    input.classList.remove('border-red-500');
+                    input.classList.add('border-gray-600');
+                }
+            });
+
+            if (isValid) {
+                // 1. Show Success Message (Non-alert)
+                successMessage.classList.remove('hidden');
+                
+                // 2. Clear the form fields after success
+                form.reset();
+            } else {
+                // Optional: Scroll to the top of the form or first invalid field
+                form.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+
+        // --- Mobile Menu Toggle ---
+        mobileMenuButton.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Function to close menu on link click (for smooth transition on mobile)
+        function closeMenu() {
+            mobileMenu.classList.add('hidden');
+        }
+
+        // Add event listeners to mobile menu links to close the menu
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+    </script>
+</body>
+</html>
